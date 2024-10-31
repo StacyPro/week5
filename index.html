@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA 4, week 5 with Arthur</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      type="image/icon"
+      href="/Users/anastasiiapronina/Desktop/QA/Week5/cat.ico"
+    />
+    <!-- Google Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Google Font Inter -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="top-logo" class="top-logo">
+          <!-- Logo goes here -->
+          Stacy_Pro
+        </div>
+        <nav class="menu">
+          <ul>
+            <!--This is unordered list -->
+            <li>About me</li>
+            <li>My works</li>
+            <li>Work process</li>
+          </ul>
+        </nav>
+        <button class="contact-btn">Contact me</button>
+      </header>
+      <main>
+        <div class="main">
+          <div class="background-container">
+            <!-- image goes here in CSS -->
+          </div>
+          <section class="name">
+            <h1>Stacy PRO</h1>
+            <h2>- QA Engineer</h2>
+          </section>
+          <p>
+            I'm Anastasiia, and I'm super excited to be here for this QA
+            engineering crash course!
+          </p>
+          <button class="cta-btn">Let's get in touch</button>
+        </div>
+        <section class="galery-wrapper"> <!-- This is a good place for section -->
+          <h3>My works</h3>
+          <ul class="project_gallery">
+            <!-- SEE LINK IN THE EMAIL
+            How to use figure-class? When is the best to use it?
+
+            Figure might be best for pictures like photos
+            Also that would be "figure html tag", not figure class
+            -->
+            <li class="project_1">
+              <img
+                src="styles/img/pr1.png"
+                alt="project_1"
+              />
+              <h2>Project 1</h2>
+              <p>QA Week 2</p>
+            </li>
+            <li class="prject_2">
+              <img src="styles/img/pr2.png"
+                alt="project_2"
+              />
+              <h2>Project 2</h2>
+              <p>QA Week 2</p>
+            </li>
+            <li class="project_3">
+              <img
+                src="styles/img/pr3.png"
+                alt="project_3"
+              />
+              <h2>Project 3</h2>
+              <p>QA Week 2</p>
+            </li>
+          </ul>
+        </section>
+        <article class="work_process"> <!-- This would be a good place for section instead of aricle -->
+          <!--Article-->
+          <h2>Work process</h2>
+           <div class="process-card"> <!-- update below by this example -->
+            <div>
+              <h3>Testing</h3>
+              <span>1</span>
+            </div>
+            <p>Ensures all requirements are tested</p>
+           </div>
+
+
+          <section> <!-- Sections are for bigger 'sections' of the website use div for such small parts-->
+            <h3>MAKE CHANGES HERE LIKE I DID FOR #1</h3>
+            <p>Provides clear traceability</p>
+          </section>
+          <section>
+            <h3>Documentation</h3>
+            <p>Helps in impact analysis when requirements change</p>
+          </section>
+        </article>
+        <section class="subscription-box">
+          <!-- This is correct use of section as it represents a larger group of elements -->
+          <h1>Get in touch!</h1>
+          <p>
+            We aim to transform Sustainable Surprises into a leading brand for
+            eco-friendly celebrations. Contact us!
+          </p>
+          <form action="/subscribe" method="post">
+            <!-- Form input fields with required attribute -->
+
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+
+            <textarea id="message" name="message" placeholder="Type here" required></textarea>
+        
+            <button type="submit">Message Me</button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-logo">Stacy_Pro</div>
+      <div class="footer-social">
+        <!--Links to the social media needs to be added here-->
+        <a href="https://www.facebook.com/AnastasiiaPro"
+          class="social-icon"
+          target="_blank">Facebook</a>
+
+        <a href="http://t.me/@ProStacy" class="social-icon" target="_blank">Telegram</a>
+
+        <a href="https://www.instagram.com/pronina_anastasiia_/"
+          class="social-icon"
+          target="_blank">Instagram</a>
+      </div>
+    </footer>
+  </body>
+</html>
