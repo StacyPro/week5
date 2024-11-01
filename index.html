@@ -51,7 +51,8 @@
           </p>
           <button class="cta-btn">Let's get in touch</button>
         </div>
-        <section class="galery-wrapper"> <!-- This is a good place for section -->
+        <section class="galery-wrapper">
+          <!-- This is a good place for section -->
           <h3>My works</h3>
           <ul class="project_gallery">
             <!-- SEE LINK IN THE EMAIL
@@ -61,51 +62,50 @@
             Also that would be "figure html tag", not figure class
             -->
             <li class="project_1">
-              <img
-                src="styles/img/pr1.png"
-                alt="project_1"
-              />
+              <img src="styles/img/pr1.png" alt="project_1" />
               <h2>Project 1</h2>
               <p>QA Week 2</p>
             </li>
             <li class="prject_2">
-              <img src="styles/img/pr2.png"
-                alt="project_2"
-              />
+              <img src="styles/img/pr2.png" alt="project_2" />
               <h2>Project 2</h2>
               <p>QA Week 2</p>
             </li>
             <li class="project_3">
-              <img
-                src="styles/img/pr3.png"
-                alt="project_3"
-              />
+              <img src="styles/img/pr3.png" alt="project_3" />
               <h2>Project 3</h2>
               <p>QA Week 2</p>
             </li>
           </ul>
         </section>
-        <article class="work_process"> <!-- This would be a good place for section instead of aricle -->
+        <section class="work_process">
+          <!-- This would be a good place for section instead of aricle -->
           <!--Article-->
           <h2>Work process</h2>
-           <div class="process-card"> <!-- update below by this example -->
+          <div class="process-card">
             <div>
               <h3>Testing</h3>
               <span>1</span>
             </div>
             <p>Ensures all requirements are tested</p>
-           </div>
+          </div>
 
-
-          <section> <!-- Sections are for bigger 'sections' of the website use div for such small parts-->
-            <h3>MAKE CHANGES HERE LIKE I DID FOR #1</h3>
+          <div class="process-card">
+            <div>
+              <h3>Requirements Analysis</h3>
+              <span>2</span>
+            </div>
             <p>Provides clear traceability</p>
-          </section>
-          <section>
-            <h3>Documentation</h3>
+          </div>
+
+          <div class="process-card">
+            <div>
+              <h3>Documentation</h3>
+              <span>3</span>
+            </div>
             <p>Helps in impact analysis when requirements change</p>
-          </section>
-        </article>
+          </div>
+        </section>
         <section class="subscription-box">
           <!-- This is correct use of section as it represents a larger group of elements -->
           <h1>Get in touch!</h1>
@@ -116,12 +116,29 @@
           <form action="/subscribe" method="post">
             <!-- Form input fields with required attribute -->
 
-            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
 
-            <input type="email" id="email" name="email" placeholder="Your email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
 
-            <textarea id="message" name="message" placeholder="Type here" required></textarea>
-        
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Type here"
+              required
+            ></textarea>
+
             <button type="submit">Message Me</button>
           </form>
         </section>
@@ -131,15 +148,23 @@
       <div class="footer-logo">Stacy_Pro</div>
       <div class="footer-social">
         <!--Links to the social media needs to be added here-->
-        <a href="https://www.facebook.com/AnastasiiaPro"
+        <a
+          href="https://www.facebook.com/AnastasiiaPro"
           class="social-icon"
-          target="_blank">Facebook</a>
+          target="_blank"
+          >Facebook</a
+        >
 
-        <a href="http://t.me/@ProStacy" class="social-icon" target="_blank">Telegram</a>
+        <a href="http://t.me/@ProStacy" class="social-icon" target="_blank"
+          >Telegram</a
+        >
 
-        <a href="https://www.instagram.com/pronina_anastasiia_/"
+        <a
+          href="https://www.instagram.com/pronina_anastasiia_/"
           class="social-icon"
-          target="_blank">Instagram</a>
+          target="_blank"
+          >Instagram</a
+        >
       </div>
     </footer>
   </body>
