@@ -42,7 +42,7 @@
             <!-- image goes here in CSS -->
           </div>
           <section class="name">
-            <h1>Stacy PRO</h1>
+            <h2>Stacy PRO</h2>
             <h2>- QA Engineer</h2>
           </section>
           <p>
@@ -51,22 +51,15 @@
           </p>
           <button class="cta-btn">Let's get in touch</button>
         </div>
-        <section class="galery-wrapper">
-          <!-- This is a good place for section -->
-          <h3>My works</h3>
+        <section class="gallery-wrapper">
+          <h2>My works</h2>
           <ul class="project_gallery">
-            <!-- SEE LINK IN THE EMAIL
-            How to use figure-class? When is the best to use it?
-
-            Figure might be best for pictures like photos
-            Also that would be "figure html tag", not figure class
-            -->
             <li class="project_1">
               <img src="styles/img/pr1.png" alt="project_1" />
               <h2>Project 1</h2>
               <p>QA Week 2</p>
             </li>
-            <li class="prject_2">
+            <li class="project_2">
               <img src="styles/img/pr2.png" alt="project_2" />
               <h2>Project 2</h2>
               <p>QA Week 2</p>
@@ -79,8 +72,6 @@
           </ul>
         </section>
         <section class="work_process">
-          <!-- This would be a good place for section instead of aricle -->
-          <!--Article-->
           <h2>Work process</h2>
           <div class="process-card">
             <div>
@@ -89,7 +80,6 @@
             </div>
             <p>Ensures all requirements are tested</p>
           </div>
-
           <div class="process-card">
             <div>
               <h3>Requirements Analysis</h3>
@@ -107,30 +97,17 @@
           </div>
         </section>
         <section class="subscription-box">
-          <!-- This is correct use of section as it represents a larger group of elements -->
-          <h1>Get in touch!</h1>
+          <h2>Get in touch!</h2>
           <p>
             We aim to transform Sustainable Surprises into a leading brand for
             eco-friendly celebrations. Contact us!
           </p>
           <form action="/subscribe" method="post">
             <!-- Form input fields with required attribute -->
-
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your name"
-              required
-            />
-
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your email"
-              required
-            />
+            <div class="input-row">
+              <input type="text" placeholder="Your name" />
+              <input type="email" placeholder="Your email" />
+            </div>
 
             <textarea
               id="message"
@@ -167,5 +144,7 @@
         >
       </div>
     </footer>
+    <!--Animation goes here-->
+    <script src="your-js-file.js"></script>
   </body>
 </html>
