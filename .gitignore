@@ -1,0 +1,24 @@
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular
+.angular/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Other
+*.swp
+*.swo

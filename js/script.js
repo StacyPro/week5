@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Navigation menu items functionality
     const menuItems = {
         'About me': '.name',
-        'My works': '.gallery-wrapper',
+        'Key Skills': '.gallery-wrapper',
         'Work process': '.work_process'
     };
 
