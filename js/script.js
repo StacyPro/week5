@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
         'Key Skills': '.gallery-wrapper',
         'Work process': '.work_process'
     };
+// Hamburger menu functionality
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+const bars = document.querySelectorAll('.bar');
+
+hamburger.addEventListener('click', function() {
+    menu.classList.toggle('active');
+    bars.forEach(bar => bar.classList.toggle('active'));
+});
 
     const menuList = document.querySelectorAll('.menu ul li');
 
@@ -23,6 +32,26 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideMenu = menu.contains(event.target);
+            const isClickOnHamburger = hamburger.contains(event.target);
+            
+            if (!isClickInsideMenu && !isClickOnHamburger && menu.classList.contains('active')) {
+                menu.classList.remove('active');
+                bars.forEach(bar => bar.classList.remove('active'));
+            }
+        });
+    
+        // Close menu when clicking a menu item
+        menuList.forEach(item => {
+            item.addEventListener('click', function() {
+                menu.classList.remove('active');
+                bars.forEach(bar => bar.classList.remove('active'));
+            });
+        });
+    
 
     // Existing CTA button scroll functionality
     const ctaButton = document.querySelector('.cta-btn');
