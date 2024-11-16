@@ -1,1 +1,28 @@
+HEAD
 .DS_Store
+=======
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular
+.angular/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Other
+*.swp
+*.swo
+91dc34d26dee8d0948526f87bb0d9f7778e0b41f
